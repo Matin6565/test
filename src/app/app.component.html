@@ -1,0 +1,41 @@
+<div class="p">
+
+  <p class="p">{{number}}</p>
+  <p class="p">حسینی :نام خانوادگی</p>
+  <p class="p"> 091895588:شماره</p>
+  <p class="p"> asjhfvasj@gmail.com:ایمیل</p>
+
+
+  <table>
+    <tr>
+      <th> </th>
+      <th> ایمیل</th>
+      <th>شماره</th>
+      <th>نام</th>
+      <th>نام خانوادگی</th>
+
+
+    </tr>
+    <tr *ngFor="let user of users">
+      <td>{{user.age}}</td>
+      <td>091895588</td>
+      <td>متین</td>
+      <td><span *ngIf="user.age==20" class="bg-success">فعال</span></td>
+      <td>حسینی</td>
+
+
+    </tr>
+  </table>
+
+
+<div class="f">
+  <button (click)="sum(150)" type="button " style="background-color: blue">کلیک کنید</button>
+  <p>{{nummmm}}</p>
+  <img src="assets/star_FILL0_wght400_GRAD0_opsz24.png">
+  <img src="assets/star_FILL0_wght400_GRAD0_opsz24.png">
+  <img src="assets/star_FILL0_wght400_GRAD0_opsz24.png">
+  <img src="assets/star_FILL0_wght400_GRAD0_opsz24.png">
+  <img src="assets/star_FILL0_wght400_GRAD0_opsz24.png">
+</div>
+</div>
+
